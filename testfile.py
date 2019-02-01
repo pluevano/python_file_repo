@@ -1,2 +1,3 @@
 print ("Oi! Oi! Oi!")
-print ("Aussie!")
+print ("Aussie!", "Oi!")
+print ("Bongo!", "Congo!", sep="^")
