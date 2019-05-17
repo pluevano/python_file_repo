@@ -1,0 +1,9 @@
+# This is where you list identify all files that
+# You don't want git to version control
+#
+# put one pattern or expression per line
+#
+# --place file names or expressions below--
+
+*.log
+*.orig
