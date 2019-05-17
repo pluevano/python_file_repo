@@ -15,16 +15,9 @@ while usage == 'u':
         int_total += (loan * (interest/100))
 
     print ()
-    print ('The total interest paid on this loan is $' ,int_total)
-    print ('The total cost of this loan is $' ,(int_total + loan))
+    print ('The total interest paid on this loan is $' ,str(round(int_total, 2)))
+    print ('The total cost of this loan is $' ,str(round(int_total + loan, 2)))
     print ()
-    retry = input('Do you wish to run this program again, y/n?\t')
-    if retry == 'n':
-        usage = retry
-    elif retry == 'y':
-        usage = usage
-    else:
-         retry = input('Do you wish to run this program again, y/n?\t')
 
 print ()
 print ('Good luck with your loan!')

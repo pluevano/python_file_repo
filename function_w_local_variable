@@ -1,0 +1,17 @@
+# function definition exercise
+# show local variable example
+
+def calc_tax(amt, tax_rate):
+  tax = amt * tax_rate            # local variable, does not affect other locals with same name
+  return tax
+
+x = int(input('please enter dollar amount '))
+y = int(input('please enter tax amount '))
+
+
+def main():
+  tax = calc_tax(x, y/100)        # local variable
+  print ('Total tax = $', str(round(tax, 2)))          # refers to variable in line above only
+
+if __name__ == '__main__':
+  main()
