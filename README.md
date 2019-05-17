@@ -2,8 +2,7 @@
 
 #Python script project
 
-This doc starts out with blah blah blah
+repo string for pull/push:
 
-This is the 2nd line of shite added
+git@github.com:pluevano/python_file_repo.git
 
-change that will cause trouble.
