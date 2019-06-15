@@ -10,6 +10,10 @@ git@github.com:pluevano/python_file_repo.git
 
 $ git remote add origin -m python_file_repo git@github.com:pluevano/python_file_repo.git
 
+# push local origin/master up to github for syncing functionality
+
+$ git push -u origin master
+
 # show the URL/s that Git has stored for the shortname to be used when reading and writing to the remote repo
 
 $ git remote -v
